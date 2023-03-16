@@ -12,6 +12,7 @@ router.get("/", (req, res) => {
   res.send({
     message:
       "Welcome to API Provinsi dan Kota Indonesia, Visit my github: https://github.com/kevinnvm",
+    docs: "https://github.com/kevinnvm/indonesia-states-cities-api",
     apiVersion: "1.0.0",
     apiLastUpdated: "16/03/2023 23:09",
     routes: {
