@@ -6,7 +6,7 @@ This README file contains information about the Node.js project.
 Overview
 --------
 
-This project is a \[insert brief description of project here\].
+This project is a \[API for retrieving list of states and cities of indonesia\].
 
 Prerequisites
 -------------
