@@ -42,7 +42,7 @@ const getCitiesFromJSON = () => {
 const getStates = (req, res) => {
   let states;
   const searchParam = req.query.search;
-  const queryLimit = req.query.limit || 15;
+  const queryLimit = req.query.limit || 34;
 
   try {
     states = fs.readFileSync(
@@ -63,7 +63,7 @@ const getStates = (req, res) => {
     );
   }
 
-  if (queryLimit) {
+  if (queryLimit && -1) {
     states = states.slice(0, parseInt(queryLimit));
   }
 
@@ -117,6 +117,7 @@ const getCities = (req, res) => {
   let cities;
   const searchParam = req.query.search;
   const queryLimit = req.query.limit || 50;
+  const stateSearchParam = req.query.state;
 
   try {
     cities = fs.readFileSync(
@@ -129,6 +130,14 @@ const getCities = (req, res) => {
       message: "Sorry, Could not get data",
       error: "Internal Server Error",
     });
+  }
+
+  if (stateSearchParam) {
+    cities = cities.filter(
+      (value) =>
+        value.stateCode?.toLowerCase().includes(stateSearchParam) ||
+        value.stateId == stateSearchParam
+    );
   }
 
   if (searchParam && searchParam !== -1) {

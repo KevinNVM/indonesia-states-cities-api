@@ -1,5 +1,4 @@
-
-## Indonesia States and Cities API
+# Indonesia States and Cities API
 
 API Documentation
 

@@ -6,6 +6,7 @@ const {
   getStates,
   getCities,
   getCityById,
+  getCitiesByState,
 } = require("./../controllers/v1Controller");
 
 router.get("/", (req, res) => {
