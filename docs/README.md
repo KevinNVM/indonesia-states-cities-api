@@ -4,6 +4,16 @@ API Documentation
 
 -----------------
 
+Overview
+--------
+
+This project is a \[API for retrieving list of states and cities of indonesia\].
+
+The API is currently is hosted at free hosting, However you can [selfhost it](https://github.com/KevinNVM/indonesia-states-cities-api#installation).
+
+- https://states-and-cities-of-indonesia.cyclic.app/ (Up)
+- https://indonesia-states-cities-api.up.railway.app/ (Up)
+
 ### `GET /states`
 
 Get a list of states.
