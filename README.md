@@ -8,6 +8,11 @@ Overview
 
 This project is a \[API for retrieving list of states and cities of indonesia\].
 
+The API is currently is hosted at free hosting, However you can [#Installasion](host it yourself).
+
+https://states-and-cities-of-indonesia.cyclic.app/ (Up)
+indonesia-states-cities-api.up.railway.app (Up)
+
 Prerequisites
 -------------
 
