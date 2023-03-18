@@ -8,7 +8,7 @@ Overview
 
 This project is a \[API for retrieving list of states and cities of indonesia\].
 
-The API is currently is hosted at free hosting, However you can [https://github.com/KevinNVM/indonesia-states-cities-api#installation](host it yourself).
+The API is currently is hosted at free hosting, However you can [selfhost it]([host it yourself](https://github.com/KevinNVM/indonesia-states-cities-api#installation)).
 
 - https://states-and-cities-of-indonesia.cyclic.app/ (Up)
 - https://indonesia-states-cities-api.up.railway.app/ (Up)
